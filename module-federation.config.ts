@@ -1,11 +1,13 @@
-export const mfConfig = {
+const mfConfig = {
   name: "break_fix",
   filename: "remoteEntry.js",
   exposes: {
-    "./Area": "./src/App.tsx",
+    "./Button": "./src/Button",
   },
   shared: {
     react: { singleton: true, requiredVersion: "^19.0.0" },
     "react-dom": { singleton: true, requiredVersion: "^19.0.0" },
   },
 };
+
+module.exports = { mfConfig };
