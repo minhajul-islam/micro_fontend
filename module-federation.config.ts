@@ -2,7 +2,7 @@ const mfConfig = {
   name: "break_fix",
   filename: "remoteEntry.js",
   exposes: {
-    "./Button": "./src/Button",
+    "./Button": "./src/ManageArea",
   },
   shared: {
     react: { singleton: true, requiredVersion: "^19.0.0" },

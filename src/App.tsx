@@ -2,14 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 import "./index.css";
-import Button from "./Button";
+import ManageArea from "./ManageArea";
 
 
 const App = () => (
   <div className="container">
     <div>Name: host-app</div>
     <div>Framework: react-18</div>
-    <Button />
+    <ManageArea />
   </div>
 );
 
