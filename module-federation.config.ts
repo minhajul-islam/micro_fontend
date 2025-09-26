@@ -5,8 +5,10 @@ const mfConfig = {
     "./Button": "./src/ManageArea",
   },
   shared: {
-    react: { singleton: true, requiredVersion: "^19.0.0" },
-    "react-dom": { singleton: true, requiredVersion: "^19.0.0" },
+    react: { singleton: false },
+    "react-dom": { singleton: false },
+    "@mui/material": { singleton: false },
+    "@emotion/react": { singleton: false },
   },
 };
 

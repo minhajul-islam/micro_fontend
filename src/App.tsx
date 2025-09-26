@@ -4,11 +4,8 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import ManageArea from "./ManageArea";
 
-
 const App = () => (
   <div className="container">
-    <div>Name: host-app</div>
-    <div>Framework: react-18</div>
     <ManageArea />
   </div>
 );
