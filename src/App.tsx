@@ -5,7 +5,7 @@ import "./index.css";
 import ManageArea from "./ManageArea";
 
 const App = () => (
-  <div className="container">
+  <div >
     <ManageArea />
   </div>
 );
