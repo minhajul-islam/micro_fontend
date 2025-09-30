@@ -24,9 +24,10 @@ module.exports = {
   },
   output: {
     uniqueName: "break_fix",
-    publicPath: "http://localhost:8099/",
+    path: path.resolve(__dirname, 'dist'),
+    publicPath: '/',
     filename: "[name].js",
-    clean: true,
+    clean: true,   // Important for Vercel
   },
   module: {
     rules: [
